@@ -2,7 +2,6 @@ import { View, Text, ScrollView, Dimensions } from 'react-native'
 import React, { useState } from 'react'
 import { Category } from './MainCategories'
 import categoriesGetir from '../../assets/categoriesGetir'
-import { colors } from '../Types'
 
 
 const { width, height } = Dimensions.get("window")

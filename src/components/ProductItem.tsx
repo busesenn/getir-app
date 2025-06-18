@@ -2,7 +2,7 @@ import { View, Text, TouchableOpacity, Image, Dimensions } from 'react-native'
 import React, { useState } from 'react'
 import { colors } from '../Types'
 import Entypo from '@expo/vector-icons/Entypo';
-import { useFocusEffect, useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
 
 const { height, width } = Dimensions.get("window")
